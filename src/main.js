@@ -1,7 +1,8 @@
-import Vue from 'vue';
-import App from './App.vue';
+import Vue from 'vue'
 
-var example1 = new Vue({
+new Vue({
   el: 'body',
-  components: { App }
-});
+  data: {
+      message: "Hello Vue"
+  }
+})
