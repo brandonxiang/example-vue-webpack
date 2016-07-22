@@ -1,35 +1,39 @@
 {
-  "name": "test-vue-webpack",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "main": "src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/brandonxiang/example-vue-webpack.git"
-  },
-  "keywords": [
-    "vue",
-    "webpack"
-  ],
-  "author": "brandonxiang",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/brandonxiang/example-vue-webpack/issues"
-  },
-  "homepage": "https://github.com/brandonxiang/example-vue-webpack#readme",
-  "devDependencies": {
-    "babel-core": "^6.1.2",
-    "babel-loader": "^6.1.0",
-    "babel-plugin-transform-runtime": "^6.1.2",
-    "babel-preset-es2015": "^6.1.2",
-    "babel-preset-stage-0": "^6.1.2",
-    "babel-runtime": "^5.8.0",
-    "webpack": "^1.12.2"
-  },
-  "dependencies": {
-    "vue": "^1.0.26"
-  }
+    "name": "test-vue-webpack",
+    "version": "1.0.0",
+    "description": "A Vue.js project",
+    "main": "src/main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandonxiang/example-vue-webpack.git"
+    },
+    "keywords": [
+        "vue",
+        "webpack"
+    ],
+    "author": "brandonxiang",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/brandonxiang/example-vue-webpack/issues"
+    },
+    "homepage": "https://github.com/brandonxiang/example-vue-webpack#readme",
+    "devDependencies": {
+        "babel-core": "^6.1.2",
+        "babel-loader": "^6.1.0",
+        "babel-plugin-transform-runtime": "^6.1.2",
+        "babel-preset-es2015": "^6.1.2",
+        "babel-preset-stage-0": "^6.1.2",
+        "babel-runtime": "^5.8.0",
+        "webpack": "^1.12.2",
+        "css-loader": "^0.23.0",
+        "style-loader": "^0.13.0",
+        "vue-loader": "^7.3.0",
+        "vue-html-loader": "^1.0.0"
+    },
+    "dependencies": {
+        "vue": "^1.0.26"
+    }
 }
