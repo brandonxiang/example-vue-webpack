@@ -16,3 +16,7 @@ npm run build
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# example-vue-webpack
+An example for vue and webpack
+>>>>>>> 3c4662203307bf807ffa05497d28271c053497f9
